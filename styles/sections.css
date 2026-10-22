@@ -1,4 +1,6 @@
 #featured {
+    grid-template-columns: 1fr 1fr;
+    
     img{
         height: 100%;
         object-fit: cover;
@@ -28,10 +30,21 @@
 
             padding: 24px;
 
+            &:has(.text-lg) {
+                padding:12px;
+            }
+
             h2 {
                 margin-top: 8px;
+            }
+
+            h2.text-lg {
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 3;
+                line-clamp: 3;
+                overflow: hidden;
             }
         }
     }
 }
-
