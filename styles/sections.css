@@ -60,13 +60,6 @@ section header {
                 margin-top: 8px;
             }
 
-            h2.text-lg {
-                display: -webkit-box;
-                -webkit-box-orient: vertical;
-                -webkit-line-clamp: 3;
-                line-clamp: 3;
-                overflow: hidden;
-            }
         }
     }
 }
